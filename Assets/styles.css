@@ -53,7 +53,6 @@ body {
 
 .menu ul li a:hover {
     color: red;
-    font-size: 80px;
 }
 
 .banner {
@@ -70,6 +69,27 @@ body {
 .banner h3 {
     padding-bottom: 30px;
     font-size: 30px;
+}
+
+.content-wrapper {
+    display: flex;
+    flex-direction: row;
+    background-color: red;
+    justify-content: space-evenly;
+}
+
+.left-box {
+    display: flex;
+    flex-direction: row;
+    background-color: green;
+    width: 40%;
+    height: 700px;
+}
+
+.right-box {
+    background-color: yellow;
+    width: 40%;
+    height: 700px;
 }
 
 
