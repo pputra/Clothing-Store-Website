@@ -80,7 +80,7 @@ body {
 .left-box {
     display: flex;
     flex-direction: row;
-    width: 50%;
+    width: 70%;
     height: 700px;
     justify-content: space-evenly;
 }
@@ -92,15 +92,19 @@ body {
 }
 
 .right-box {
-    width: 50%;
-    height: 700px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    width: 30%;
+    height: 520px;
     justify-content: center; 
+    overflow: scroll;
+    overflow-x: hidden;
 }
 
 .item-right {
     background-color: black;
     margin: 6em 22em;
-    height: 15%;
+    height: 30%;
     width: 30%;
 }
 
