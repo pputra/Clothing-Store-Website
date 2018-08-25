@@ -74,22 +74,34 @@ body {
 .content-wrapper {
     display: flex;
     flex-direction: row;
-    background-color: red;
     justify-content: space-evenly;
 }
 
 .left-box {
     display: flex;
     flex-direction: row;
-    background-color: green;
-    width: 40%;
+    width: 50%;
     height: 700px;
+    justify-content: space-evenly;
+}
+
+.item-left {
+    background-color: black;
+    margin: 6em 1em;
+    width: 32%
 }
 
 .right-box {
-    background-color: yellow;
-    width: 40%;
+    width: 50%;
     height: 700px;
+    justify-content: center; 
+}
+
+.item-right {
+    background-color: black;
+    margin: 6em 22em;
+    height: 15%;
+    width: 30%;
 }
 
 
